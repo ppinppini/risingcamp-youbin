@@ -1,16 +1,20 @@
+body{
+    width: 1440px;
+    height: 1000vh;
+    
+}
 header img {
-  width: 91px;
-  margin-top: -8px;
+    width: 91px;
+    margin-top: -8px;
 }
 header {
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 1.4rem;
     
     padding: 15px;
     flex-wrap:nowrap ;
     border-bottom: 1px solid rgba(0,0,0,0.2);
-   
 }
 .header-content{
     display: flex;
@@ -18,19 +22,19 @@ header {
     position: relative;
     border-radius: 40px;
     background-color: lightgray;
-   
 }
 .header-content i{
     width: 10%;
     position: relative;
     padding: 9px;
-   
+
 }
 .header-content input{
     width: 90%;
     border: none;
     background-color: lightgray;
-   
+    border-radius: 40px;
+
 }
 nav{
     border-bottom: 1px solid rgba(0,0,0,0.2);
@@ -44,33 +48,85 @@ nav >ul{
 nav > ul >li {
     padding: 0px 20px;
 }
-article{
+.article{
     position: relative;
+    box-sizing: border-box;
 }
-.article img{
+.article img {
+    width: 100%;
     object-fit: cover;
 }
 .article div{
     position: absolute;
-    top: 20%;
+    top: 10%;
+
     left:10%;
     box-sizing: border-box;
     border: 1px solid rgba(0,0,0,0.2);
     box-shadow: 3px 3px 3px 3px gray;
     background-color: white;
     width: 30%;
+ 
     padding: 24px;
-
 }
 .article div input{
     background-color: black;
     color: white;
     border: none;
     padding: 10px;
-    
 }
 main{
     padding:0px 15px;
+}
+.my-learning__title{
+    display: flex;
+    position: relative;
+
     
 }
+.my-learning{
+    display: flex;
+    justify-content: center;
+}
+.my-learning__title__content{
+    position: absolute;
+    margin-top: 21px;
+    right: 10px;
+    
+}
+.my-learning__content{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0px 10px;
+    
+}
+.my-learning__content__title{
+    color: gray;
+}
+.my-learning__content__section-name{
+    margin-bottom: 2em;
+}
+.my-learning__content__time{
+    color:gray;
+}
+.lecture-recommend{
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 15px;
+}
+.lecture-recommend__content{
+    display: flex;
+}
+.lecture-recommend__content__img{
+    margin-right: 2em;
+}
+.fa-star{
+    color: darkorange;
+}
+button{
+    border: none;
+    background-color: beige;
 
+
+}
