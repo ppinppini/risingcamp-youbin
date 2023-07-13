@@ -1,0 +1,351 @@
+body {
+  width: 1440px;
+}
+header img {
+  width: 91px;
+  margin-top: -8px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+
+  padding: 15px;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.header-content {
+  display: flex;
+  border: 1px solid;
+  position: relative;
+  border-radius: 40px;
+  background-color: lightgray;
+}
+.header-content i {
+  width: 10%;
+  position: relative;
+  padding: 9px;
+  text-align: center;
+}
+
+.header-content input {
+  width: 90%;
+  border: none;
+  background-color: lightgray;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.header-content input:focus {
+  outline: none;
+}
+
+.lecture-title {
+  background-color: black;
+  padding-left: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+main {
+  padding: 0px 200px;
+  position: relative;
+}
+main div {
+  width: 700px;
+}
+.index-history :not(i) {
+  color: lavender;
+}
+.index-history i {
+  color: white;
+}
+.index-history {
+  font-size: 20px;
+  font-weight: 600;
+}
+.lecture-explain__detail button {
+  background-color: beige;
+  padding: 5px;
+  margin-right: 5px;
+}
+.lecture-explain__detail i {
+  color: darkorange;
+}
+.etc {
+  margin-top: 10px;
+}
+.etc span {
+  margin-right: 20px;
+}
+
+.check-list {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.check-list ul {
+  list-style-type: none;
+}
+.check-list ul i {
+  margin-right: 5px;
+}
+.check-list ul li {
+  color: gray;
+}
+.practice-coding {
+  margin: 20px 0px;
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  width: 690px;
+}
+
+.practice-coding__content {
+  width: 30%;
+}
+.practice-coding__img {
+  width: 70%;
+  margin-left: 50px;
+}
+.practice-coding__img img {
+  width: 402px;
+  height: 252px;
+  border-radius: 10px;
+}
+.course-curiculum ul {
+  list-style-type: none;
+}
+.course-curiculum ul > li {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.lecture-content__course__block {
+  background-color: beige;
+  font-weight: 600;
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.course-curiculum ul > li :nth-child(2) {
+  color: gray;
+}
+.extra-section {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.demand__lightcolor {
+  color: gray;
+}
+.demand > ul > li {
+  margin: 10px 0px;
+}
+.other-lecture__list {
+  display: flex;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.other-lecture__list__component {
+  display: flex;
+  width: 50%;
+}
+.other-lecture__list__content {
+  margin-left: 10px;
+}
+.other-lecture__list :nth-child(2) > span {
+  margin-right: 1em;
+}
+.other-lecture__list :nth-child(2) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.extra-view {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 15px;
+  font-weight: 400;
+}
+.instructor-profile {
+  display: flex;
+}
+.profile-img {
+  width: 20%;
+}
+.profile-img img {
+  border-radius: 50%;
+}
+.profile-info ul {
+  list-style-type: none;
+}
+.profile-info ul li {
+  padding: 3px;
+}
+.review-box {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.review-profile {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+}
+.name-and-rate {
+  width: 300px;
+}
+.fa-circle-user {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.review-content {
+  width: 470px;
+  height: 220px;
+
+  margin: 10px 0px;
+}
+.extra-review {
+  margin: 20px 0px;
+  border: 2px solid rgba(0, 0, 0, 1);
+  width: 100px;
+  font-weight: 600;
+  padding: 15px;
+  text-align: center;
+}
+.more-lecutre__content-box {
+  display: flex;
+  justify-content: space-between;
+}
+.more-lecture__content {
+  width: 200px;
+}
+.sidebar {
+  width: 340px;
+  border: 0px solid;
+  position: absolute;
+  top: 1em;
+  right: 3em;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08);
+}
+.sidebar img {
+  object-fit: fill;
+}
+.purchase-info {
+  display: flex;
+
+  width: 240px;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 400;
+}
+.purchase-info i {
+  margin-right: 5px;
+}
+.sidebar button {
+  width: 292px;
+  height: 42px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.sidebar p {
+  margin-left: 7em;
+  color: gray;
+}
+
+.sidebar__lecture-info ul {
+  list-style-type: none;
+  
+}
+.sidebar__lecture-info ul> li {
+  margin-left: -18px;
+}
+.sidebar__service{
+    width: 100%;
+    display: flex;
+
+    
+}
+.sidebar__service :nth-child(1){
+    width: 170%;
+    margin-left: 10px;
+}
+.sidebar__service a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar__lecture-info{
+    padding-left: 15px;
+
+}
+.sidebar__lecture-info p{
+    width: 300px;
+    margin-left:2px;
+}
+.sidebar__lecture-info button
+{
+    background-color: white;
+    margin-left: 6px;
+}
+footer {
+  background-color: black;
+  color: white;
+}
+.footer__block1 {
+  display: flex;
+  padding: 20px;
+  border-bottom: rgba(0, 0, 0, 0.2);
+  border-color: white;
+}
+.footer__block1 :nth-child(1) {
+  font-weight: 800;
+}
+.footer__block1 input {
+  margin-left: 60em;
+  border: 1px solid;
+  background-color: black;
+  color: white;
+}
+.footer__block2 {
+  padding: 20px;
+  display: flex;
+  border-bottom: 2px;
+  border-color: wheat;
+}
+.icons {
+  margin-left: 20em;
+}
+.icons img {
+  margin: 0px 5px;
+}
+.footer__block3 {
+  display: flex;
+  padding: 20px;
+}
+.footer__block3 div {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__block3 ul {
+  list-style-type: none;
+}
+.footer__block3 button {
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  width: 100px;
+  height: 50px;
+
+  margin-left: 40em;
+}
+.footer__block4 {
+  display: flex;
+}
+.footer__block4__img {
+  padding: 0px 15px;
+  margin-bottom: 20px;
+}
